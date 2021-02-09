@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		log in form
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container p-3 my -3 bg-secondary text-white  ">
+  <h1>Ragistration form</h1>
+  <form action="/action_page.php">
+
+    <div class="form-group">
+   <label for="email">First Name.:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Your First" name="email">
+    </div>
+
+    <div class="form-group">
+   <label for="email">Last name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Your Last Name" name="email">
+    </div>
+
+  <div class="form-group">
+    <label for="Gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+  </div>
+
+  <div class="form-group"><label for="Catagiri">Choose your Catagiri..:</label><br>
+    <select name ="Gender"</select>
+    <option value="">--select group--</option>
+    <option value="">Genral</option>
+    <option value="">OBC</option>
+    <option value="">SC/ST</option></select><br>
+  </div>
+
+ <div class="form-group">
+   <label for="email">Email:</label>
+   <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+ </div>
+
+  <div class="form-group">
+    <label for="number">Mobile no.:</label><br>
+    <input type="number" id="phone" name="phone"maxlength="10"><br>
+  </div>
+
+    <div class="form-group">
+	 <label for="email">New Password.:</label>
+      <input type="Password" class="form-control" id="email" placeholder="Enter New Password" name="email">
+    </div>
+
+    <div class="form-group">
+   <label for="email">Confirm Password.:</label>
+      <input type="Password" class="form-control" id="email" placeholder="Confirm Password" name="email">
+    </div>
+
+      <button type="submit" class="btn btn-dark">Submit</button>
+
+</form>
+
+
+
+</body>
+</html>
